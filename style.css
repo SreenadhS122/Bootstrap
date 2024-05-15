@@ -21,6 +21,16 @@ input[type="text"],input[type="email"],input[type="color"],input[type="date"],se
 input[type="color"]{
     height: 40px !important;
 }
+input[type="radio"]:checked,input[type="checkbox"]:checked{
+    accent-color: red !important;
+    background-color: #4318FF !important;
+}
+input[type="range"]::-webkit-slider-thumb{
+    background-color:  #4318FF;
+}
+#flexRadioDefault1,#flexRadioDefault2{
+    accent-color: red !important;
+}
 textarea{
     resize: none;
     border-radius: 22px !important;
@@ -31,10 +41,10 @@ h3{
     color: #2B3674;
 }
 .main-section-bg{
-    background-color: rgba(233, 237, 242, 1);
+    background-color: #E9EDF2;
 }
 .bg-light{
-    background-color: rgba(255, 255, 255, 1);
+    background-color: white;
 }
 .border-radius{
     border-radius: 22px;
@@ -79,18 +89,37 @@ input[type="file"]{
     width: 92px;
     height: 50px;
     border-radius: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    color: #2B3674;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
     margin-left: 5px;
 }
 .form-label::after{
     content: "*";
     color: red;
 }
-.form-control:focus{
-    outline: none !important;
-}
 .btn-radius{
     border-radius: 16px !important;
+}
+.btn-clr{
+    background-color: #4318FF;
+    color: white;
+}
+.light-clr-btn{
+    background-color: #FAF9FF !important;
+}
+.small-btn{
+    width: 122px !important;
+}
+.big-btn{
+    width: 160px !important;
+}
+.btn{
+    height:58px;
+    font-size:15px;
+    font-weight: 700;
+}
+.clr-text{
+    color:#2B3674;
 }
