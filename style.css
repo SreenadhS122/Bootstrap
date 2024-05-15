@@ -11,6 +11,10 @@ label{
     font-weight: 500;
     color:#2B3674;
 }
+input:focus,select:focus,textarea:focus{
+    box-shadow: none !important;
+    border: 1px solid #4318FF !important;
+}
 input[type="text"],input[type="email"],input[type="color"],input[type="date"],select{
     border-radius: 22px !important;
 }
@@ -83,4 +87,7 @@ input[type="file"]{
 }
 .form-control:focus{
     outline: none !important;
+}
+.btn-radius{
+    border-radius: 16px !important;
 }
