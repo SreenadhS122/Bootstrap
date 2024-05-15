@@ -91,6 +91,7 @@ input[type="file"]{
     font-weight: 700;
     text-align: center;
     margin-left: 5px;
+    background-color: white !important;
 }
 .measure-indication:focus{
     box-shadow: none !important;
