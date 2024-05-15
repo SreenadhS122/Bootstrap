@@ -1,0 +1,86 @@
+body{
+    font-family: "DM Sans", sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+label{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color:#2B3674;
+}
+input[type="text"],input[type="email"],input[type="color"],input[type="date"],select{
+    border-radius: 22px !important;
+}
+textarea{
+    resize: none;
+    border-radius: 22px !important;
+}
+h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #2B3674;
+}
+.main-section-bg{
+    background-color: rgba(233, 237, 242, 1);
+}
+.bg-light{
+    background-color: rgba(255, 255, 255, 1);
+}
+.border-radius{
+    border-radius: 22px;
+}
+.material-symbols-outlined{
+    color: #4318FF;
+    width: 24px;
+    height: 28px;
+}
+input[type="file"]{
+    display: none;
+
+}
+.img-upload{
+    display: none;
+    border: 1px solid #B2BAD0;
+    border-style: dashed;
+    border-radius: 13px;
+}
+.img-upload h6{
+    color: #4318FF;
+    font-size: 16px;
+    font-weight: 700;
+}
+.img-upload p{
+    color:#8F9BBA;
+    font-size: 12px;
+    font-weight: 500;
+}
+.card{
+    border-radius: 22px;
+}
+.alert h6{
+    font-size: 16px;
+    font-weight:500; 
+}
+.alert p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.measure-indication{
+    width: 92px;
+    height: 50px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+.form-label::after{
+    content: "*";
+    color: red;
+}
+.form-control:focus{
+    outline: none !important;
+}
