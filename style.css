@@ -28,9 +28,6 @@ input[type="radio"]:checked,input[type="checkbox"]:checked{
 input[type="range"]::-webkit-slider-thumb{
     background-color:  #4318FF;
 }
-#flexRadioDefault1,#flexRadioDefault2{
-    accent-color: red !important;
-}
 textarea{
     resize: none;
     border-radius: 22px !important;
@@ -44,7 +41,7 @@ h3{
     background-color: #E9EDF2;
 }
 .bg-light{
-    background-color: white;
+    background-color: white !important;
 }
 .border-radius{
     border-radius: 22px;
@@ -56,13 +53,13 @@ h3{
 }
 input[type="file"]{
     display: none;
-
 }
 .img-upload{
     display: none;
     border: 1px solid #B2BAD0;
     border-style: dashed;
     border-radius: 13px;
+    background-color: #FAFCFE;
 }
 .img-upload h6{
     color: #4318FF;
@@ -90,10 +87,14 @@ input[type="file"]{
     height: 50px;
     border-radius: 16px;
     color: #2B3674;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 700;
     text-align: center;
     margin-left: 5px;
+}
+.measure-indication:focus{
+    box-shadow: none !important;
+    border: 1px solid #4318FF !important;
 }
 .form-label::after{
     content: "*";
