@@ -125,3 +125,10 @@ input[type="file"]{
 .clr-text{
     color:#2B3674;
 }
+select{
+    font-size: 10px !important;
+    height: 37.47px !important;
+}
+::placeholder{
+    font-size: 12px !important;
+}
