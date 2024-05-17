@@ -125,7 +125,15 @@ input[type="file"]{
 .clr-text{
     color:#2B3674;
 }
-.salutation-select{
-    font-size: 10px !important;
-    height: 37.47px !important;
+.col-xl-2{
+    width: 24%;
+}
+.col-lg-5{
+    width: 38%;
+}
+@media (max-width: 768px) {
+    .col-md-12 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
 }
